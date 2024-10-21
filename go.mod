@@ -1,4 +1,4 @@
-module broker
+module ex
 
 go 1.22.4
 
