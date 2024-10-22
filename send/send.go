@@ -40,7 +40,9 @@ func main() {
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
 
-	body := "Hello World!"
+	body := "Hello World!!!"
+
+	//Отправка сообщения
 	err = ch.PublishWithContext(ctx,
 		"",     // exchange
 		q.Name, // routing key
