@@ -1,5 +1,0 @@
-2024/10/23 15:14:27 Binding queue amq.gen-2HwOs_Iuh-sQs13bv5uCrA to exchange logs_direct with routing key warning
-2024/10/23 15:14:27 Binding queue amq.gen-2HwOs_Iuh-sQs13bv5uCrA to exchange logs_direct with routing key error
-2024/10/23 15:14:27  [*] Waiting for logs. To exit press CTRL+C
-2024/10/23 15:14:34  [x] warning
-2024/10/23 15:15:05  [x] warning
