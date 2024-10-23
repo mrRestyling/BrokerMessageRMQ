@@ -46,7 +46,7 @@ func main() {
 	// 5 Body
 	body := bodyFrom(os.Args)
 
-	// 6 Publish
+	// 6 Publish with Context
 
 	err = ch.PublishWithContext(ctx,
 		"logs_direct",         // exchange
