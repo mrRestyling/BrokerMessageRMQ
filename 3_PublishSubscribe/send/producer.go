@@ -30,7 +30,7 @@ func main() {
 	failOnError(err, "Failed to open a channel")
 	defer ch.Close()
 
-	// 3 Очередь
+	// 3 Declare Exchange
 
 	err = ch.ExchangeDeclare(
 		"logs",   // name
@@ -50,7 +50,7 @@ func main() {
 	// 5 Тело запроса
 	body := bodyFrom(os.Args)
 
-	// 6 ОТправка
+	// 6 Отправка
 
 	err = ch.PublishWithContext(ctx,
 		"logs", // exchange
