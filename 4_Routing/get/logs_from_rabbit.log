@@ -1,8 +1,0 @@
-2024/10/23 14:42:23 Binding queue amq.gen-ZnYZoLdZpc1amZAP7kkD9A to exchange logs_direct with routing key warning
-2024/10/23 14:42:23 Binding queue amq.gen-ZnYZoLdZpc1amZAP7kkD9A to exchange logs_direct with routing key error
-2024/10/23 14:42:23  [*] Waiting for logs. To exit press CTRL+C
-2024/10/23 14:44:04  [x] error Run. Run. Or it will explode.
-2024/10/23 14:44:22  [x] error Run. Run. Or it will explode.
-2024/10/23 14:45:21  [x] error
-2024/10/23 14:46:53  [x] warning
-
