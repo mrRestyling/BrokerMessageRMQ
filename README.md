@@ -6,24 +6,33 @@
 
 
 
-- ### Producer
-  Продюсер — программа, которая отправляет сообщения
+- ## Producer
 
   ![{00E37BEB-941D-474E-93C9-8DD5CFC4C56D}](https://github.com/user-attachments/assets/6b2b2c24-4fb7-42ed-9342-90d322b46237)
+ 
+  Продюсер — программа, которая отправляет сообщения
 
-- ### Queue
+
+
+- ## Queue
+
+  ![{C13CA936-070B-4C61-9817-F8BD2D269F43}](https://github.com/user-attachments/assets/653049d9-e331-4cd7-a94a-f7df353fe865)
   
   Очередь — почтовый ящик в RabbitMQ. Сообщения хранятся только внутри очереди. Очередь ограничена только памятью диска хоста, по сути это большой буфер сообщений
 
-  ![{C13CA936-070B-4C61-9817-F8BD2D269F43}](https://github.com/user-attachments/assets/653049d9-e331-4cd7-a94a-f7df353fe865)
+  
 
-- ### Consumer:
-
-  Потребитель — программа, которая ждет получения сообщений
+- ## Consumer:
 
   ![{20E26689-F392-4122-8B3E-745C60512EA2}](https://github.com/user-attachments/assets/5d92aa9b-fe75-41eb-9b20-60d0b1d8f87b)
 
-- ### Exchange:
+  Потребитель — программа, которая ждет получения сообщений
+
+  
+
+- ## Exchange:
+
+  ![{BE670F06-83FB-4930-8A55-7193EBA80691}](https://github.com/user-attachments/assets/be8c9c59-4b4f-44d8-9eac-a5c862bf18f9)
 
   Обменник — направляет сообщение в нужную очередь
   
@@ -33,10 +42,6 @@
   - `topic` 
   - `headers` 
   - `fanout` 
-  
-
-  ![{BE670F06-83FB-4930-8A55-7193EBA80691}](https://github.com/user-attachments/assets/be8c9c59-4b4f-44d8-9eac-a5c862bf18f9)
-
 
 
 # Описание
