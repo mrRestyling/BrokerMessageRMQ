@@ -1,4 +1,4 @@
-module ex1
+module ex
 
 go 1.22.4
 
